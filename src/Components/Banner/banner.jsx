@@ -3,9 +3,9 @@ import Logo from "../Banner/banner.png"
 
 function Banner() {
     return(
-        <>
-        <S.Img src={Logo} alt="imagem de fundo" />
-        </>
+        <S.Banner>
+            <S.Img src={Logo} alt="imagem de fundo" />
+        </S.Banner>
     )
 }
 
