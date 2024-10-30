@@ -7,4 +7,5 @@ text-align: center;
 
 export const Img = styled.img`
 max-width: 80%;
+height: 50vh;
 `

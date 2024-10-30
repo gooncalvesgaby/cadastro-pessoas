@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 import Banner from "./Components/Banner/Banner.jsx"
+import Formulario from "./Components/Formulario/formulario.jsx"
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -14,8 +15,9 @@ function App() {
 
   return (
     <>
-    <Banner />
     <GlobalStyle />
+    <Banner />
+    <Formulario />
     </>
   )
 }
