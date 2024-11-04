@@ -14,12 +14,18 @@ display: flex;
 justify-content: center;
 padding: 1.5rem;
 flex-direction: column;
+margin: 3rem;
 `
 
 export const H1 = style.h1`
 font-size: 1.3rem;
+margin-bottom: 2rem;
 `
 
 export const Input = style.input`
-
+margin-bottom: 2rem;
+height: 6vh;
+border-radius: 2px;
+border: none;
+padding: 10px;
 `

@@ -8,7 +8,6 @@ function Form() {
                     <S.Input placeholder="Digite seu nome" />
                     <S.Input placeholder="Digite seu cargo" />
                     <S.Input placeholder="Informe o endereço da imagem" />
-                    <S.Input />
                 </S.Form>
             </S.Div>
     )
