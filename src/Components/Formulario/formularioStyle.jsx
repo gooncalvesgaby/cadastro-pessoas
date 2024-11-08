@@ -29,3 +29,9 @@ border-radius: 2px;
 border: none;
 padding: 10px;
 `
+
+export const Label = style.label`
+font-weight: 700;
+font-size: 15px;
+margin-bottom: 5px;
+`
