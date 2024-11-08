@@ -2,6 +2,16 @@ import * as S from "./formularioStyle.jsx"
 import Lista from "../Lista/lista.jsx"
 
 function Form() {
+
+    const times = [
+        'Programação',
+        'Front-End',
+        'Data Science',
+        'Devops',
+        'Mobile',
+        'Inovação'
+    ]
+
     return(
             <S.Div>
                 <S.Form>
@@ -12,7 +22,7 @@ function Form() {
                     <S.Input placeholder="Digite seu cargo" />
                     <S.Label>Imagem</S.Label>
                     <S.Input placeholder="Informe o endereço da imagem" />
-                    <Lista />
+                    <Lista itens={times} />
                 </S.Form>
             </S.Div>
     )

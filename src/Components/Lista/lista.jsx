@@ -5,8 +5,9 @@ function Lista(props) {
         <S.Div>
             <S.Label>{props.label}</S.Label>
             <S.Select>
-                {/* minha linha abaixo: pra cada item retorna uma option */}
-                {props.item.map(item => <option>{item}</option>)}
+                {props.itens.map(item => {
+                    return <option key={item}>{item}</option>
+                })}
             </S.Select>
         </S.Div>
     )
