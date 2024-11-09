@@ -16,5 +16,5 @@ margin-bottom: 2rem;
 height: 6vh;
 border-radius: 2px;
 border: none;
-width: 65vw;
+width: 66vw;
 `

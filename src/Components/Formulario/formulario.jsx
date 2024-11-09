@@ -1,5 +1,6 @@
 import * as S from "./formularioStyle.jsx"
 import Lista from "../Lista/lista.jsx"
+import Button from "../Button/button.jsx"
 
 function Form() {
 
@@ -23,6 +24,7 @@ function Form() {
                     <S.Label>Imagem</S.Label>
                     <S.Input placeholder="Informe o endereço da imagem" />
                     <Lista itens={times} label="Time" />
+                    <Button />
                 </S.Form>
             </S.Div>
     )
