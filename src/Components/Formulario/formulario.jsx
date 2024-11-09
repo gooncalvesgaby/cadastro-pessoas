@@ -13,9 +13,14 @@ function Form() {
         'Inovação'
     ]
 
+    const salvar = (evento) => {
+        evento.preventDefault()
+        console.log('Salvei meu formulário')
+    }
+
     return(
             <S.Div>
-                <S.Form>
+                <S.Form onSubmit={salvar}>
                     <S.H1>Preencha os dados para criar o card do colaborador.</S.H1>
                     <S.Label>Nome</S.Label>
                     <S.Input placeholder="Digite seu nome" />
