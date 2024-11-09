@@ -22,7 +22,7 @@ function Form() {
                     <S.Input placeholder="Digite seu cargo" />
                     <S.Label>Imagem</S.Label>
                     <S.Input placeholder="Informe o endereço da imagem" />
-                    <Lista itens={times} />
+                    <Lista itens={times} label="Time" />
                 </S.Form>
             </S.Div>
     )
