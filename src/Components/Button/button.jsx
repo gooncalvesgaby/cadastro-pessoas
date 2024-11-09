@@ -1,9 +1,9 @@
 import * as S from "./buttonStyle.jsx"
 
-function Button() {
+function Button(props) {
     return(
         <S.Button>
-            sou botao
+            {props.children}
         </S.Button>
     )
         

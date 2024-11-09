@@ -24,7 +24,9 @@ function Form() {
                     <S.Label>Imagem</S.Label>
                     <S.Input placeholder="Informe o endereço da imagem" />
                     <Lista itens={times} label="Time" />
-                    <Button />
+                    <Button>
+                        Criar Card
+                    </Button>
                 </S.Form>
             </S.Div>
     )

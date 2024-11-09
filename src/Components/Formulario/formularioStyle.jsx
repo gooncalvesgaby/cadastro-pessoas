@@ -7,7 +7,7 @@ justify-content: center;
 
 export const Form = style.form`
 width: 70vw;
-height: 90vh;
+height: 100vh;
 background-color: #80808026;
 border-radius: 1rem;
 display: flex;
