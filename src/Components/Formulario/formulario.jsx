@@ -18,12 +18,19 @@ function Form() {
         console.log('Salvei meu formulário')
     }
 
+    let valor = 'Gaby'
+
+    const enviado = (evento) => {
+        valor = evento.target.value
+        console.log(valor)
+    }
+
     return(
             <S.Div>
                 <S.Form onSubmit={salvar}>
                     <S.H1>Preencha os dados para criar o card do colaborador.</S.H1>
                     <S.Label>Nome</S.Label>
-                    <S.Input placeholder="Digite seu nome" />
+                    <S.Input value={valor} onChange={enviado} placeholder="Digite seu nome" />
                     <S.Label>Cargo</S.Label>
                     <S.Input placeholder="Digite seu cargo" />
                     <S.Label>Imagem</S.Label>
